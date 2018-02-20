@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>insert edit update delete</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		function initial (){
+			(new main_function()).no_of_student();
+		}
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body onload="initial();">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Please enter number of students: </label>
+					<input type="number" class="form-control" id="GetInputVal"  placeholder="Input number">
+					
+				</div>
+			</div>
+			<div class="col-md-2 row-btn">
+				<button id="getRowBtn" class="btn btn-default"> Get row</button>
+			</div>
+		</div>
+		<div id="display-row">
+			
+		</div>
+		
+	</div>
+
+
+</body>
+
+</html>
+
